@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2132DA92918CE2E00369FC5 /* CallKittyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2132DA82918CE2E00369FC5 /* CallKittyApp.swift */; };
+		F2132DAB2918CE2E00369FC5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2132DAA2918CE2E00369FC5 /* HomeView.swift */; };
+		F2132DAD2918CE3000369FC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2132DAC2918CE3000369FC5 /* Assets.xcassets */; };
+		F2132DB02918CE3000369FC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2132DAF2918CE3000369FC5 /* Preview Assets.xcassets */; };
+		F2D525982919FC6100725545 /* AuthenticateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D525972919FC6100725545 /* AuthenticateView.swift */; };
+		F2D5259C2919FC7C00725545 /* AuthenticateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5259B2919FC7C00725545 /* AuthenticateViewModel.swift */; };
+		F2D5259F2919FF2200725545 /* CallManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D5259E2919FF2200725545 /* CallManagerViewModel.swift */; };
+		F2E981022919F5A8002E1959 /* CallManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E981012919F5A8002E1959 /* CallManagerView.swift */; };
+		F2E981052919F8E3002E1959 /* SendBirdCalls in Frameworks */ = {isa = PBXBuildFile; productRef = F2E981042919F8E3002E1959 /* SendBirdCalls */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2132DA52918CE2E00369FC5 /* CallKitty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallKitty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2132DA82918CE2E00369FC5 /* CallKittyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallKittyApp.swift; sourceTree = "<group>"; };
+		F2132DAA2918CE2E00369FC5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F2132DAC2918CE3000369FC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2132DAF2918CE3000369FC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2132DB62918CFFD00369FC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F2D525972919FC6100725545 /* AuthenticateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateView.swift; sourceTree = "<group>"; };
+		F2D5259B2919FC7C00725545 /* AuthenticateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateViewModel.swift; sourceTree = "<group>"; };
+		F2D5259E2919FF2200725545 /* CallManagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallManagerViewModel.swift; sourceTree = "<group>"; };
+		F2E981012919F5A8002E1959 /* CallManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallManagerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2132DA22918CE2E00369FC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E981052919F8E3002E1959 /* SendBirdCalls in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2132D9C2918CE2E00369FC5 = {
+			isa = PBXGroup;
+			children = (
+				F2132DA72918CE2E00369FC5 /* CallKitty */,
+				F2132DA62918CE2E00369FC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2132DA62918CE2E00369FC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2132DA52918CE2E00369FC5 /* CallKitty.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2132DA72918CE2E00369FC5 /* CallKitty */ = {
+			isa = PBXGroup;
+			children = (
+				F2D525992919FC6900725545 /* ViewModels */,
+				F2E980FF2919F555002E1959 /* Views */,
+				F2132DB62918CFFD00369FC5 /* Info.plist */,
+				F2132DA82918CE2E00369FC5 /* CallKittyApp.swift */,
+				F2132DAC2918CE3000369FC5 /* Assets.xcassets */,
+				F2132DAE2918CE3000369FC5 /* Preview Content */,
+			);
+			path = CallKitty;
+			sourceTree = "<group>";
+		};
+		F2132DAE2918CE3000369FC5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F2132DAF2918CE3000369FC5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F2D525962919FC5200725545 /* Authenticate */ = {
+			isa = PBXGroup;
+			children = (
+				F2D525972919FC6100725545 /* AuthenticateView.swift */,
+			);
+			path = Authenticate;
+			sourceTree = "<group>";
+		};
+		F2D525992919FC6900725545 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F2D5259D2919FF1600725545 /* CallManager */,
+				F2D5259A2919FC6E00725545 /* Authenticate */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F2D5259A2919FC6E00725545 /* Authenticate */ = {
+			isa = PBXGroup;
+			children = (
+				F2D5259B2919FC7C00725545 /* AuthenticateViewModel.swift */,
+			);
+			path = Authenticate;
+			sourceTree = "<group>";
+		};
+		F2D5259D2919FF1600725545 /* CallManager */ = {
+			isa = PBXGroup;
+			children = (
+				F2D5259E2919FF2200725545 /* CallManagerViewModel.swift */,
+			);
+			path = CallManager;
+			sourceTree = "<group>";
+		};
+		F2E980FF2919F555002E1959 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2D525962919FC5200725545 /* Authenticate */,
+				F2132DAA2918CE2E00369FC5 /* HomeView.swift */,
+				F2E981002919F584002E1959 /* Call Manager */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F2E981002919F584002E1959 /* Call Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F2E981012919F5A8002E1959 /* CallManagerView.swift */,
+			);
+			path = "Call Manager";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2132DA42918CE2E00369FC5 /* CallKitty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2132DB32918CE3000369FC5 /* Build configuration list for PBXNativeTarget "CallKitty" */;
+			buildPhases = (
+				F2132DA12918CE2E00369FC5 /* Sources */,
+				F2132DA22918CE2E00369FC5 /* Frameworks */,
+				F2132DA32918CE2E00369FC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallKitty;
+			packageProductDependencies = (
+				F2E981042919F8E3002E1959 /* SendBirdCalls */,
+			);
+			productName = CallKitty;
+			productReference = F2132DA52918CE2E00369FC5 /* CallKitty.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2132D9D2918CE2E00369FC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F2132DA42918CE2E00369FC5 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = F2132DA02918CE2E00369FC5 /* Build configuration list for PBXProject "CallKitty" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2132D9C2918CE2E00369FC5;
+			packageReferences = (
+				F2E981032919F8E3002E1959 /* XCRemoteSwiftPackageReference "sendbird-calls-ios" */,
+			);
+			productRefGroup = F2132DA62918CE2E00369FC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2132DA42918CE2E00369FC5 /* CallKitty */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2132DA32918CE2E00369FC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2132DB02918CE3000369FC5 /* Preview Assets.xcassets in Resources */,
+				F2132DAD2918CE3000369FC5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2132DA12918CE2E00369FC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D5259F2919FF2200725545 /* CallManagerViewModel.swift in Sources */,
+				F2132DAB2918CE2E00369FC5 /* HomeView.swift in Sources */,
+				F2D5259C2919FC7C00725545 /* AuthenticateViewModel.swift in Sources */,
+				F2E981022919F5A8002E1959 /* CallManagerView.swift in Sources */,
+				F2132DA92918CE2E00369FC5 /* CallKittyApp.swift in Sources */,
+				F2D525982919FC6100725545 /* AuthenticateView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F2132DB12918CE3000369FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2132DB22918CE3000369FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2132DB42918CE3000369FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CallKitty/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallKitty/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oscast.callkitty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2132DB52918CE3000369FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CallKitty/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallKitty/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oscast.callkitty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2132DA02918CE2E00369FC5 /* Build configuration list for PBXProject "CallKitty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2132DB12918CE3000369FC5 /* Debug */,
+				F2132DB22918CE3000369FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2132DB32918CE3000369FC5 /* Build configuration list for PBXNativeTarget "CallKitty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2132DB42918CE3000369FC5 /* Debug */,
+				F2132DB52918CE3000369FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F2E981032919F8E3002E1959 /* XCRemoteSwiftPackageReference "sendbird-calls-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sendbird/sendbird-calls-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F2E981042919F8E3002E1959 /* SendBirdCalls */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2E981032919F8E3002E1959 /* XCRemoteSwiftPackageReference "sendbird-calls-ios" */;
+			productName = SendBirdCalls;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F2132D9D2918CE2E00369FC5 /* Project object */;
+}

@@ -1,2 +1,2 @@
-# CallKitty-Voip
-VoIP using Sendbird Calls, CallKit and SwiftUI
+# CallKitty VoIP
+VoIP example with CallKit and Sendbird with SwiftUI 
